@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	myFigure := figure.NewColorFigure("kevin-kho is Awesome!!!", "larry3d", "yellow", true)
+	myFigure := figure.NewColorFigure("kevin-kho is Awesome 1337!!!", "larry3d", "yellow", true)
 	myFigure.Print()
 
 	if secret := os.Getenv("SECRET"); secret != "" {
